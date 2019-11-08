@@ -28,18 +28,30 @@
 #     print(sentence.lower())
 
 
-def title_case():
-    sentence_2 = input("Type in a Sentence and watch it become a title.")
-    new_sentence_2 = []
-    new_sentence_2.append(sentence_2.split(" "))
-    for x in new_sentence_2:
+# def title_case():
+#     sentence_2 = input("Type in a Sentence and watch it become a title.")
+#     new_sentence_2 = sentence_2.split(" ")
+#     blank = []
+#     for x in new_sentence_2:
+#         blank.append(x[0].upper() + x[1:])
+#     name = " ".join(blank)
+#     print(name)
 
-    sentence_2.upper(sentence_2[len])
+
+def replace_4():
+    sentence_3 = "Type in a sentence with at least one four letter word."
+    new_sentence_3 = sentence_3.split(" ".)
+    blank = []
+    for words in new_sentence_3:
+        if len(x) = 4:
+
 
 
 def main():
     # lacking_ends()
     # longest_word(["dog", "fish", "bear", "horse", "falcon", "Phoenix"])
     # upper_lower()
+    # title_case()
+
 
 main()

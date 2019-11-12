@@ -1,6 +1,6 @@
 # original = "abcdefghij"
-# first = original[0:2]
-# last = original[3:10]
+# first = original[:3]
+# last = original[3:]
 # final = first + last
 # print(final)
 

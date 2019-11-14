@@ -42,13 +42,13 @@ def replace_4():
     sentence_3 = input("Type in a sentence with at least one four letter word.")
     split_list = sentence_3.split(" ")
     new_sentence_3 = []
-    if len(word) in new_sentence_3 == 4:
-            word += "#$%@"
+    if len(word) in split_list == 4:
+        word += "#$%@"
         new_sentence_3.append(word)
     else:
         new_sentence_3.append(word)
     phrase = " ".join(new_sentence_3)
-    print(new_sentence_3)
+    print(phrase)
 
 
 def main():

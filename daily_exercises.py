@@ -39,12 +39,16 @@
 
 
 def replace_4():
-    sentence_3 = "Type in a sentence with at least one four letter word."
-    new_sentence_3 = sentence_3.split(" ".)
-    blank = []
-    for words in new_sentence_3:
-        if len(x) = 4:
-
+    sentence_3 = input("Type in a sentence with at least one four letter word.")
+    split_list = sentence_3.split(" ")
+    new_sentence_3 = []
+    if len(word) in new_sentence_3 == 4:
+            word += "#$%@"
+        new_sentence_3.append(word)
+    else:
+        new_sentence_3.append(word)
+    phrase = " ".join(new_sentence_3)
+    print(new_sentence_3)
 
 
 def main():
@@ -52,6 +56,7 @@ def main():
     # longest_word(["dog", "fish", "bear", "horse", "falcon", "Phoenix"])
     # upper_lower()
     # title_case()
+    replace_4()
 
 
 main()

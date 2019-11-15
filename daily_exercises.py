@@ -38,17 +38,19 @@
 #     print(name)
 
 
-def replace_4():
-    sentence_3 = input("Type in a sentence with at least one four letter word.")
-    split_list = sentence_3.split(" ")
-    new_sentence_3 = []
-    if len(word) in split_list == 4:
-        word += "#$%@"
-        new_sentence_3.append(word)
-    else:
-        new_sentence_3.append(word)
-    phrase = " ".join(new_sentence_3)
-    print(phrase)
+# def replace_4():
+#     sentence_3 = input("Type in a sentence with at least one four letter word.")
+#     split_list = sentence_3.split(" ")
+#     for x in range(len(split_list)):
+#         if len(split_list[x]) == 4:
+#             split_list[x] = "#$%@"
+#     space = " ".join(split_list)
+#     print(space)
+
+
+def bubble_sort():
+    names = ["guillermo", "xander", "kwame", "scout", "allison", "liana", "ariana"]
+
 
 
 def main():
@@ -56,7 +58,7 @@ def main():
     # longest_word(["dog", "fish", "bear", "horse", "falcon", "Phoenix"])
     # upper_lower()
     # title_case()
-    replace_4()
+    # replace_4()
 
 
 main()
